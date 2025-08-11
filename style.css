@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+
+}
+
+.navbar-container {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.left-navbar {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+}
+
+#bus-bottem {
+    border-bottom: 3px solid red;
+    width: 200;
+    color: red;
+}
+
+.right-navbar {
+    width: 30%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    gap: 1.5em;
+}
+
+.right-navbar-items {
+    display: flex;
+}
+
+
+.section-1-contaier {
+    width: 100%;
+    position: relative;
+}
+
+#img-font {
+    color: white;
+    width: 34%;
+    height: 100;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    z-index: 100;
+    top: 100px;
+    left: 150px;
+
+}
+
+.section-1-div-place {
+    background-color: red;
+    position: relative;
+
+}
+
+.section-1-part3 {
+    width: 80%;
+    position: absolute;
+    top: -4em;
+    left: 10%;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.section-1-part-3-1 {
+    background-color: white;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    /* background-color: blue; */
+    gap: 20px;
+
+}
+
+.section-3-left {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#input-1 {
+    width: 30%;
+    border-right: 1px solid grey;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+#arrive {
+    position: absolute;
+    z-index: 100;
+    bottom: 15;
+    right: 20px;
+    align-content: center;
+}
+
+
+#input-2 {
+    border-right: 1px solid grey;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+#departure {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    bottom: 14;
+    align-content: center;
+}
+
+.input-1-1 {
+    width: 190px;
+    height: 30px;
+}
+
+#section-female {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button {
+    border: none;
+    background-color: rgb(255, 164, 164);
+    border-radius: 15px;
+    padding: 5px;
+}
